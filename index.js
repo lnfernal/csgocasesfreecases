@@ -1,6 +1,8 @@
 const https = require('https');
 
-function opencase(token, id) {
+const token = 'hz7z9bvx8xcsko8sko00s0wo0kcs80k';
+
+function opencase(id) {
     const options = {
         host: 'csgocases.com',
         port: 443,
@@ -23,8 +25,8 @@ function opencase(token, id) {
 }
 
 function openfreecases() {
-    opencase('hz7z9bvx8xcsko8sko00s0wo0kcs80k', '3');
-    opencase('hz7z9bvx8xcsko8sko00s0wo0kcs80k', '62');
+    opencase('3');
+    opencase('62');
 }
 
 openfreecases();
