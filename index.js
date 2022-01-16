@@ -22,6 +22,9 @@ function opencase(token, id) {
     req.end();
 }
 
+opencase('hz7z9bvx8xcsko8sko00s0wo0kcs80k', '3');
+opencase('hz7z9bvx8xcsko8sko00s0wo0kcs80k', '62');
+
 setInterval(() => {
     opencase('hz7z9bvx8xcsko8sko00s0wo0kcs80k', '3');
     opencase('hz7z9bvx8xcsko8sko00s0wo0kcs80k', '62');
