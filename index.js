@@ -1,6 +1,6 @@
 const https = require("https");
 
-const token = "hz7z9bvx8xcsko8sko00s0wo0kcs80k";
+const token = "*your token here*";
 
 function opencase(id) {
     const url = `https://csgocases.com/api.php/case/open?id=${id}&number=1&test=false`;
