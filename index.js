@@ -1,5 +1,6 @@
 const https = require("https");
 
+//Here's your "sfRemember" cookie
 const token = "*your token here*";
 
 function opencase(id) {
@@ -17,9 +18,9 @@ function opencase(id) {
 }
 
 function openfreecases() {
-    opencase("3");
-    opencase("62");
+    opencase("3"); //Free Case 1
+    opencase("62"); //Free Case 2
 }
 
 openfreecases();
-setInterval(openfreecases, (3600 * 24 + 10) * 1000);
+setInterval(openfreecases, (3600 * 24 + 10) * 1000); //Loop all 24h and 10s
